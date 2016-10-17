@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Contact Me</title>
+  <meta name="keywords" content="cv, employment, hairing, job, proffessional, IT jobs"/>
+  
+  <link rel="stylesheet" type="text/css" href="..assets/stylesheets/main.css">
+</head>
+<body>
+
+<div id="header">
+  <h1 class="heading">Contact Me</h1>
+  <nav id="logo">
+  <!-- <img src="image/logo.png" width="150" height="149" alt="my logo" /> -->
+  </nav>
+</div>
+
+<div class="wrapper">
+
+<%= link_to 'Home', root_path %>
+<%= link_to 'Test', test_path %>
+
+  <div id="links">
+    <nav class="nav1">
+        <ul>
+          <li><a href="index.html">Home</a></li> 
+          <li><a href="cv.html">My CV</a></li> 
+          <li><a href="contact.html">Contact Me</a></li> 
+        </ul>
+    </nav> 
+  </div>
+
+  <div id="content">
+    <div id="form">
+      <form action="" method="get"></form>  <!--creating a form-->
+      <span ><h2>Contact Me</h2></span>
+      <em>Your Name (Required)</em> </br>  <input type="text" value="" method="" /> </br>  <!--creating a textbox-->
+      <em>Your Email(Required)</em> </br> <input type="text" value="" method="" /> </br>
+      <em>Your Message</em> </br> <textarea name="comment" id="comment" cols="60" rows="15">Type your message here.</textarea> </br><!--creating a text area-->
+
+      <!-- <input id="button" type="Submit" value="Send"> </br> -->
+      <button id="button"> <strong>Send</strong></button>
+    </div>
+
+    
+  </div>
+
+</div>
+
+<div class="footer"> 
+<hr/>
+<p id="bottom"> &copy; Copyright 2015 <a href="index.html">Omar King</a> </p>
+
+</div>
+
+</body>
+</html>

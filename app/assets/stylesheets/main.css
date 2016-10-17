@@ -1,0 +1,171 @@
+
+.wrapper{  
+  width: 90%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 20px;
+  background-color: #E6E6FA;
+} /** wrapper color: #E6E6FA; applies to all the pages*/
+
+#header{  /**header applies to all pages*/
+  text-align: center;
+  background-color:   #E0E0E0;
+  height: 120px;
+}
+
+#logo img{  /** applies to all pages*/
+  float: left;
+  margin-top: -105px;
+  width: 120px;
+  height: 120px;
+}
+
+
+.heading{  /** applies to all pages*/
+  font-size: 2.5em;
+  color: #7f909a;
+  padding-top: 30px;
+}
+span h2{
+  color: #292421;
+}
+#content{  /** applies to all pages*/
+  position:relative;
+  min-width:500px;
+  margin: 0px 20px 10px 20px;
+  padding:20px;
+  z-index:3; 
+  top: 10px;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+#content-left{ /** applies to the cv page*/
+  width: 20%;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 50px;
+}
+
+#content-left ul li{
+  display: block;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+#content-left ul li a{
+  text-decoration: none;
+  padding: 0.6em 2em;
+  padding: 10px;
+  color: black;
+  background-color: #cccccc;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+  border-style: outset;
+}
+
+#content-left ul li a:hover{
+  color: #cccccc;
+  background-color: black;
+}
+#content-right{
+  float: right;
+}
+
+table{  
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius:8px;
+}
+
+th{
+  padding-right: 10px;
+  color: #000;
+  text-align: center;
+  width: 40%;
+}
+
+td{
+  padding-left: 10px;
+  color:  #152737;
+  padding: 0.4em;
+  width: 50%;
+}
+
+#img{  /**image applies to the homepage*/
+  position:relative;
+  float: none;
+  width:400px;
+  min-width:120px;
+  margin:10px 20px 20px 780px;
+  padding:10px;
+  top: -330px;
+}
+
+.nav1 { /** applies to all pages*/
+  margin-bottom: 2%;
+  text-align: center;
+  margin-top: -20px;
+  padding-top: 10px;
+}
+
+.nav1 ul li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 30px;
+}
+
+.nav1 ul li a{
+  border-style: outset;
+  text-decoration: none;
+  padding: 0.6em 2em;
+  color: black;
+  background-color: #cccccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.nav1 ul li a:hover{
+  color: #cccccc;
+  background-color: black;
+  }
+
+
+#contact{
+  text-decoration: none;
+  }
+
+.footer{
+  clear: both;
+  text-align: center;
+}
+
+#form{
+  font-size: 1.5em;
+
+  }
+input{ /** applies to the contact page*/
+  width: 480px;
+  height: 20px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 10px 10px 10px;
+  }
+#button{
+  width: 120px;
+  height: 20%;
+  border: ridge;
+  }
+
+input, textarea { 
+  border: 1px solid;
+  border-color: #666 #ccc #ccc #666;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+input:focus, textarea:focus { 
+  background: white; 
+}
+
