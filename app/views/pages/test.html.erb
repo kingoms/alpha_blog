@@ -8,11 +8,28 @@
 <%=link_to 'Home', root_path %> |
 <%=link_to 'About', about_path %>
 
-<%= image_tag'cake.jpg' %>
+<!--   <%= image_tag'cake.jpg' %>  -->
 <table>
-<% results = "2993030|F. JOBE:07048601863|ALIEU CAMARA #1:07118451116|FATOU BADJIE" %>
-<% result = results.split(":") %>
-<td><%= puts result%> </td>
+<% @input = "2993030|F. JOBE:07048601863|ALIEU CAMARA #1:07118451116|FATOU BADJIE" %>
+
+<% @results = @input.split(":") %>
+<!--  -->
+
+<p>
+
+
+<% subs = %w(results).in_groups(3) {|group| p group} %>
+
+<%= @rul%>
+<tr>
+  <td><% @results.each do |result|%> </td> </n>
+  
+</tr>
+<tr>
+  <td><a href=""> <%= result%></a></td> 
+  <% end %>
+</tr>
+  </p>
 </table>
 </body>
 </html>
